@@ -3332,3 +3332,623 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
 	... 38 common frames omitted
+2021-09-14 13:18:10,297 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringCrudApplication using Java 16.0.1 on lenovoT450 with PID 31628 (C:\Users\IT Work\git\Main4\target\classes started by IT Work in C:\Users\IT Work\git\Main4)
+2021-09-14 13:18:10,297 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-09-14 13:18:10,297 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-14 13:18:10,814 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-14 13:18:10,871 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 56 ms. Found 5 JPA repository interfaces.
+2021-09-14 13:18:10,974 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@35ce9190' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:18:10,976 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:18:11,040 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-09-14 13:18:11,041 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-09-14 13:18:11,041 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-14 13:18:11,197 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-14 13:18:11,204 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-09-14 13:18:11,205 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 905 ms
+2021-09-14 13:18:11,218 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-41 - Starting...
+2021-09-14 13:18:11,222 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-41 - Start completed.
+2021-09-14 13:18:11,223 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b278613f-6b30-46f2-81fb-598a6f143d58'
+2021-09-14 13:18:11,276 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-14 13:18:11,297 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-14 13:18:11,415 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Category (class must be instantiated by Interceptor)
+2021-09-14 13:18:11,422 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Role (class must be instantiated by Interceptor)
+2021-09-14 13:18:11,480 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-14 13:18:11,481 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:18:11,631 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-14 13:18:11,681 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-09-14 13:18:11,688 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+2021-09-14 13:18:11,692 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:18:11,904 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [restartedMain] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-09-14 13:18:11,904 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-41 - Shutdown initiated...
+2021-09-14 13:18:11,908 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-41 - Shutdown completed.
+2021-09-14 13:18:11,909 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-09-14 13:18:11,914 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-14 13:18:11,920 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.colin.SpringCrudApplication.main(SpringCrudApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at com.colin.service.CartItemService.<init>(CartItemService.java:27)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	... 38 common frames omitted
+2021-09-14 13:19:19,410 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringCrudApplication using Java 16.0.1 on lenovoT450 with PID 31628 (C:\Users\IT Work\git\Main4\target\classes started by IT Work in C:\Users\IT Work\git\Main4)
+2021-09-14 13:19:19,410 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-09-14 13:19:19,410 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-14 13:19:19,920 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-14 13:19:19,979 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 58 ms. Found 5 JPA repository interfaces.
+2021-09-14 13:19:20,077 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5e55d5c9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:19:20,078 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:19:20,139 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-09-14 13:19:20,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-09-14 13:19:20,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-14 13:19:20,287 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-14 13:19:20,291 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-09-14 13:19:20,291 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 877 ms
+2021-09-14 13:19:20,305 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-42 - Starting...
+2021-09-14 13:19:20,307 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-42 - Start completed.
+2021-09-14 13:19:20,307 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7eda1d21-bc68-4a44-b8d4-fd12477fc717'
+2021-09-14 13:19:20,346 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-14 13:19:20,356 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-14 13:19:20,388 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Category (class must be instantiated by Interceptor)
+2021-09-14 13:19:20,392 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Role (class must be instantiated by Interceptor)
+2021-09-14 13:19:20,427 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-14 13:19:20,427 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:19:20,565 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-14 13:19:20,607 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-09-14 13:19:20,611 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+2021-09-14 13:19:20,612 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:19:20,818 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [restartedMain] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-09-14 13:19:20,819 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-42 - Shutdown initiated...
+2021-09-14 13:19:20,820 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-42 - Shutdown completed.
+2021-09-14 13:19:20,821 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-09-14 13:19:20,826 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-14 13:19:20,829 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.colin.SpringCrudApplication.main(SpringCrudApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at com.colin.service.CartItemService.<init>(CartItemService.java:27)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	... 38 common frames omitted
+2021-09-14 13:22:38,277 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringCrudApplication using Java 16.0.1 on lenovoT450 with PID 31628 (C:\Users\IT Work\git\Main4\target\classes started by IT Work in C:\Users\IT Work\git\Main4)
+2021-09-14 13:22:38,295 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-09-14 13:22:38,295 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-14 13:22:39,504 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-14 13:22:39,552 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2021-09-14 13:22:39,647 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1d4e3f7e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:22:39,648 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:22:39,713 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-09-14 13:22:39,714 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-09-14 13:22:39,714 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-14 13:22:39,822 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-14 13:22:39,825 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-09-14 13:22:39,826 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1527 ms
+2021-09-14 13:22:39,839 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-43 - Starting...
+2021-09-14 13:22:39,847 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-43 - Start completed.
+2021-09-14 13:22:39,847 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f068dea0-5e28-48f5-9dfe-2f7e2e01627f'
+2021-09-14 13:22:39,928 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-14 13:22:39,955 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-14 13:22:40,023 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Category (class must be instantiated by Interceptor)
+2021-09-14 13:22:40,028 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Role (class must be instantiated by Interceptor)
+2021-09-14 13:22:40,073 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-14 13:22:40,074 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:22:40,400 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-14 13:22:40,606 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-09-14 13:22:40,614 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+2021-09-14 13:22:40,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:22:40,847 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [restartedMain] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-09-14 13:22:40,848 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-43 - Shutdown initiated...
+2021-09-14 13:22:40,871 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-43 - Shutdown completed.
+2021-09-14 13:22:40,874 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-09-14 13:22:40,886 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-14 13:22:40,892 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.colin.SpringCrudApplication.main(SpringCrudApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at com.colin.service.CartItemService.<init>(CartItemService.java:27)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	... 38 common frames omitted
+2021-09-14 13:22:43,454 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringCrudApplication using Java 16.0.1 on lenovoT450 with PID 31628 (C:\Users\IT Work\git\Main4\target\classes started by IT Work in C:\Users\IT Work\git\Main4)
+2021-09-14 13:22:43,454 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-09-14 13:22:43,454 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-14 13:22:44,053 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-14 13:22:44,121 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
+2021-09-14 13:22:44,282 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5a3db0fd' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:22:44,284 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:22:44,368 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-09-14 13:22:44,369 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-09-14 13:22:44,369 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-14 13:22:44,609 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-14 13:22:44,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-09-14 13:22:44,641 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1183 ms
+2021-09-14 13:22:44,655 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-44 - Starting...
+2021-09-14 13:22:44,657 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-44 - Start completed.
+2021-09-14 13:22:44,657 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:8a361818-2720-4732-b786-27f36fd39d4b'
+2021-09-14 13:22:44,702 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-14 13:22:44,710 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-14 13:22:44,814 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Category (class must be instantiated by Interceptor)
+2021-09-14 13:22:44,818 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Role (class must be instantiated by Interceptor)
+2021-09-14 13:22:44,845 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-14 13:22:44,846 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:22:44,982 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-14 13:22:45,018 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-09-14 13:22:45,025 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+2021-09-14 13:22:45,025 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:22:45,239 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [restartedMain] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-09-14 13:22:45,240 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-44 - Shutdown initiated...
+2021-09-14 13:22:45,241 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-44 - Shutdown completed.
+2021-09-14 13:22:45,242 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-09-14 13:22:45,247 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-14 13:22:45,251 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.colin.SpringCrudApplication.main(SpringCrudApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at com.colin.service.CartItemService.<init>(CartItemService.java:27)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	... 38 common frames omitted
+2021-09-14 13:22:48,574 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringCrudApplication using Java 16.0.1 on lenovoT450 with PID 31628 (C:\Users\IT Work\git\Main4\target\classes started by IT Work in C:\Users\IT Work\git\Main4)
+2021-09-14 13:22:48,575 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-09-14 13:22:48,575 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-09-14 13:22:49,259 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-14 13:22:49,312 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2021-09-14 13:22:49,517 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6c25238d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:22:49,519 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 13:22:49,633 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-09-14 13:22:49,636 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-09-14 13:22:49,637 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-14 13:22:49,967 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-14 13:22:49,994 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-09-14 13:22:49,994 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1411 ms
+2021-09-14 13:22:50,009 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-45 - Starting...
+2021-09-14 13:22:50,020 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-45 - Start completed.
+2021-09-14 13:22:50,021 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:82ef7b39-ba0a-4705-a61a-a0619e19fbb0'
+2021-09-14 13:22:50,438 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-14 13:22:50,450 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-14 13:22:50,501 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Category (class must be instantiated by Interceptor)
+2021-09-14 13:22:50,505 INFO org.hibernate.tuple.PojoInstantiator [restartedMain] HHH000182: No default (no-argument) constructor for class: com.colin.models.Role (class must be instantiated by Interceptor)
+2021-09-14 13:22:50,607 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-14 13:22:50,608 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:22:50,748 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-14 13:22:50,789 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-09-14 13:22:50,795 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+2021-09-14 13:22:50,796 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 13:22:51,012 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [restartedMain] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-09-14 13:22:51,013 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-45 - Shutdown initiated...
+2021-09-14 13:22:51,014 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-45 - Shutdown completed.
+2021-09-14 13:22:51,015 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-09-14 13:22:51,019 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-14 13:22:51,023 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartItemController': Unsatisfied dependency expressed through field 'cartItemService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.colin.SpringCrudApplication.main(SpringCrudApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartItemService' defined in file [C:\Users\IT Work\git\Main4\target\classes\com\colin\service\CartItemService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.colin.service.CartItemService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:221)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method getUser() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+	The method getProduct() is undefined for the type CartItem
+	The method getUser() is undefined for the type CartItem
+	The method getId() is undefined for the type CartItem
+
+	at com.colin.service.CartItemService.<init>(CartItemService.java:27)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:208)
+	... 38 common frames omitted
